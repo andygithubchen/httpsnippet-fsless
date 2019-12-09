@@ -1,9 +1,8 @@
 {
   "version": "1.16.21",
   "name": "httpsnippet-fsless",
-  "description": "HTTP Request snippet generator for *most* languages without using node-fs",
   "author": "Abhijit Kane, abhijit@getpostman.com",
-  "homepage": "https://github.com/postmanlabs/httpsnippet",
+  "description": "HTTP Request snippet generator for *most* languages without using node-fs",
   "license": "MIT",
   "main": "./src/index.js",
   "bin": "./bin/httpsnippet",
@@ -68,7 +67,7 @@
     "event-stream": "3.3.4",
     "folderify": "^0.7.0",
     "form-data": "^0.2.0",
-    "har-validator-fsless": "1.6.6",
+    "har-validator-fsless": "git+https://github.com/tigerqiu712/har-validator-fsless.git",
     "postman-collection": "3.0.8"
   }
 }

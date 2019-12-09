@@ -213,3 +213,12 @@ For more information on SemVer, please visit <http://semver.org/>.
 
 [david-url]: https://david-dm.org/Mashape/httpsnippet
 [david-image]: https://img.shields.io/david/Mashape/httpsnippet.svg?style=flat-square
+
+## Webpack
+```shell
+npm install
+
+#PRO打包命名
+webpack src/index.js --output-library HTTPSnippet --mode production
+webpack src/index.js --output-library HTTPSnippet --mode development
+```

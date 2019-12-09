@@ -3,6 +3,11 @@
 //module.exports = require('require-directory')(module, { exclude: /helpers\.js$/ })
 
 module.exports = {
+	'http': {
+		'index': require('./http/index.js'),
+		'info': require('./http/info.js'),
+		'http1.1': require('./http/http1.1.js'),
+	},
 	'c': {
 		'index': require('./c/index.js'),
 		'info': require('./c/info.js'),
